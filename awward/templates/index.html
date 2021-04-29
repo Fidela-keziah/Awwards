@@ -1,0 +1,53 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
+{{block.super}}
+
+
+<div class="jumbotron"
+    style="background-image:url('https://images.pexels.com/photos/6120394/pexels-photo-6120394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;background-repeat:no-repeat;background-position:center center;background-size:cover;height:100vh;margin-top:-1;color:black;">
+
+    <h1 class="text-center" style="color:khaki;margin-top:6%;font-family: 'Lancelot', cursive;">PROJECTS</h1>
+
+</div>
+
+
+
+<div class="container" style="padding-top: 3%;">
+    <h2 class="text-center" style="margin-bottom: 3%;font-family: 'Lancelot', cursive;
+    ">Submitted Projects</h2>
+    <div class="row">
+        {% for proj in all_projects %}
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-lg">
+                <a href="{% url 'oneproject' proj.id %}">
+                    <img src="{{proj.project_image.url}}" width="100%">
+                </a>
+                <div class="card-body">
+                    
+                        <span style="font-family: 'Rancho', cursive;">{{proj.title}} </span>
+                        <span style="float:right;font-family: 'Rancho', cursive;"><small>{{proj.date|date:"F d,Y"}}</small> </span><br>
+
+                    <div class="foot">
+                     <small style="font-family: 'Old Standard TT', serif;">{{proj.description}}</small><br><br>
+                        <span><small style="text-transform:capitalize;font-family: 'Rancho', cursive;">{{proj.user}}</small> </span>
+                        <button class="btn btn-outline-default" style=" float:right;font-family: 'Rancho', cursive;"><a href="{{proj.link}}" target="_blank" style="color: black;">visite site</a></button>
+                    </div>
+                    
+                </div>
+               
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block scripts %}
+{{block.super}}
+<script type="text/javascript" src="{%static 'js/newsletter.js'%}">
+</script>
+{% endblock %}
