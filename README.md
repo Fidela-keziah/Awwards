@@ -43,4 +43,4 @@ feel free to contact me via E-mail: irafidel@gmail.com in case you need any supp
 
 ### License
 
-* MIT license,Copyright (c) {2021} Fidela-Keziah}**
+* MIT license,Copyright (c) {2021} Fidela-Keziah**
