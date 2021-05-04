@@ -37,7 +37,7 @@ The application will allow a user to post a project he/she has created and get i
 * View projects overall score
 * View my profile page
 
-## Live link 
+
 
 ## Contact Information
 
