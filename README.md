@@ -39,7 +39,7 @@ The application will allow a user to post a project he/she has created and get i
 
 ## Contact Information
 
-{feel free to contact me via E-mail: irafidel@gmail.com in case you need any support or contribution.}
+feel free to contact me via E-mail: irafidel@gmail.com in case you need any support or contribution.
 
 ### License
 
