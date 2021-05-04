@@ -1,7 +1,9 @@
 # Awwards
 
 #### Awwards application,28 April 2021.
-#### By **{Fidela-Keziah}**
+### Author
+
+#### Fidela-Keziah
 
 ## Description
 
