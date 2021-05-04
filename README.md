@@ -37,8 +37,6 @@ The application will allow a user to post a project he/she has created and get i
 * View projects overall score
 * View my profile page
 
-
-
 ## Contact Information
 
 {feel free to contact me via E-mail: irafidel@gmail.com in case you need any support or contribution.}
